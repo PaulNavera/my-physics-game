@@ -1,0 +1,124 @@
+Interface Overview
+When the player enters the game website, they will see two main options on the home
+screen:
+1. Story Mode
+○ This is where the player experiences the adventure.
+○ The game follows the narrative starting from the events after Game 1.
+○ After selecting Story Mode (Game 1), a short animated background sequence
+will play.
+■ This animation or graphic sequence will orient the player on the story
+so far.
+■ Visual cues (characters, locations, and objects from the previous
+mission) will appear to provide context before starting the new
+challenge.
+■ Brief on-screen text or voiceover will summarize the events of the
+previous game.
+2. Encyclopedia
+○ This section is for deeper learning.
+○ Contains explanations of the science concepts used in the game.
+○ Includes diagrams, definitions, and examples to help players understand
+topics such as temperature, heat, phase changes, and energy.
+The Valley of Velocity – Game 1: Emergency Divert Challenge
+Setting:
+The player is aboard train racing through a scenic valley. The train is powered by a special
+Energy Gauge that converts kinetic energy into speed. The landscape outside becomes part
+of the puzzle, and the train’s speed directly affects what can be seen, caught, or interacted
+with.
+Introduction Scene (Narrative Hook)
+● How:
+The game opens with the train conductor saying:
+“We need to get these supplies to the next town, but this train runs on kinetic energy!
+The faster we go, the more energy we have — but we have to watch our position
+carefully or we’ll miss our delivery points!”
+This dialogue quickly links speed and position with energy in context.
+● Why:
+This anchors the player’s actions in a purposeful story rather than random gameplay.
+It also sets up the cause-effect relationship between speed, position, and energy
+before the player even starts.
+Concept Overview:
+In Game 1, the player is placed inside the cockpit of a moving train, complete with a
+joystick, speed gauge, and energy gauge. The objective is to relate the speed and position
+of the train to the amount of energy possessed by the body (train). The primary challenge is
+an “Emergency Divert” scenario.
+Gameplay Scene:
+● Environment: Blue sky, brown train tracks.
+● Perspective: First-person POV from inside the train.
+● Controls:
+○ Joystick – Controls train direction.
+○ Energy Gauge – Displays kinetic energy levels based on current speed.
+○ Speed Gauge – Shows current velocity.
+● Challenge:
+Pop-up Educational Tips:
+● When adjusting speed: “Increasing speed increases kinetic energy. More energy
+means the train can cover more distance but requires more control.”
+● When approaching the diversion point: “Your position and velocity determine if you
+can safely divert in time.”
+● When energy gauge changes: “The energy shown is proportional to the square of
+velocity. Doubling speed quadruples energy.”
+Programmer Notes:
+How it Works Why it Teaches the Concept
+The train needs to climb a steep
+hill — player must increase
+speed early so enough kinetic
+energy is stored to make it up.
+Links speed directly to energy: faster
+speed = more energy to overcome
+obstacles.
+A delivery station appears —
+player must adjust speed so the
+train stops in the exact position
+of the platform.
+Shows how speed affects where and
+when you arrive at a target.
+Train enters a “no fuel” section
+— player must maintain
+momentum by keeping initial
+speed high enough to coast
+through.
+Reinforces that energy gained from
+speed carries the train forward
+without extra input.
+Obstacle suddenly appears —
+player must reduce speed
+quickly, seeing how reducing
+speed lowers kinetic energy and
+impact risk.
+Demonstrates that less speed
+means less kinetic energy to stop or
+slow down.
+● Train controls must respond in real-time to player input.
+● Pop-up system should trigger based on player actions (speed change, proximity to
+diversion point, energy level change).
+● Ensure track-switching animation is smooth and matches player’s velocity.
+● Collision detection must end the round if the player fails to divert before the
+disruption.
+Game 2- Frostfire Cavern Challenge
+Sequence: This game takes place after Game 1 (The Valley of Velocity).
+Story Introduction:
+After completing the delivery in Game 1, the player receives another urgent task—this time
+from a wizard. The player successfully delivers the wizard's package and, as thanks,
+receives a Magic Thermometer with the power to edit temperatures.
+Scenario:
+The player is told the only way to complete the delivery is to cross a bridge. However, the
+bridge is blocked by two extreme hazards—ice (too cold) and lava (too hot). The player
+must use the Magic Thermometer to adjust the temperatures and make the bridge safe.
+Core Mechanic:
+The Magic Thermometer works like a temperature/heat simulator (similar to PhET’s phase
+change simulation). The player can click and drag controls to raise or lower temperatures,
+observing how materials change state (solid, liquid, gas) to clear the path.
+Gameplay Flow:
+1. Player approaches the bridge and sees ice and lava.
+2. Pop-up explains the competency: Understanding temperature, heat transfer, and
+phase changes.
+3. Pop-up explains the mechanics: Use the Magic Thermometer to adjust the
+temperature of different bridge sections.
+4. Player needs to complete 5 temperature edits to balance heat and cold so the
+bridge can be crossed.
+5. Once conditions are safe, the bridge becomes passable.
+Competency Applied:
+Players learn how temperature changes affect matter, how heat flows between objects, and
+how to find balance between extremes.
+Pop-Ups:
+● After story: Competency pop-up (brief explanation)
+● Before gameplay: Mechanics pop-up (how to use
+thermometer and controls)
